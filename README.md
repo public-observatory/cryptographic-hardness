@@ -10,7 +10,9 @@ $$
 
 where $A$ is a public matrix with $m$ rows and $n$ columns over the integers modulo $q$, and $e$ is a small random error vector. The difficulty depends on the dimensions, modulus, secret and error distributions, and any algebraic structure imposed on $A$.
 
-Lattice cryptography offers reductions connecting certain average-case problems to worst-case lattice problems. These provide evidence for hardness under specified assumptions, but do not by themselves determine the cost of solving a particular parameter set. Understanding that cost, and the role of structure in it, is the core problem. Recent progress in AI-assisted mathematics motivates revisiting these algorithmic questions.
+Lattice cryptography offers reductions connecting certain average-case problems to worst-case lattice problems. These provide evidence for hardness under specified assumptions, but do not by themselves determine the cost of solving a particular parameter set. Understanding that cost, and the role of structure in it, is the core problem.
+
+OpenAI's [2026 collection of AI-generated mathematical results](https://github.com/openai/math), at varying stages of verification, motivates asking whether similar methods can advance the algorithms studied here. Progress on other mathematical problems does not itself establish a cryptographic weakness: the relevant question is whether a new algorithm lowers the cost of solving the instance distributions used in cryptography.
 
 Three directions seem promising:
 
