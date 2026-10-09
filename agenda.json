@@ -1,9 +1,9 @@
 {
-  "title": "Cryptographic hardness under accelerated mathematical discovery",
+  "title": "Structure and hardness in cryptography",
   "kind": "open-agenda",
-  "question": "How can cryptography remain secure if AI rapidly improves the algorithms used to attack it?",
+  "question": "When does the structure that makes a cryptographic construction efficient also make its underlying computational problem easier?",
   "created": "2026-10-09T07:46:59+00:00",
-  "summary": "An open agenda on lattice security margins, hash-based alternatives, and encryption that remains secure when an assumption fails. A starting point is reproducible benchmarking of AI-assisted algorithm discovery against tuned classical lattice attacks.",
+  "summary": "An open agenda on how algebraic structure and parameter choices affect cryptographic hardness, with directions on lattice algorithms, concrete complexity, and the assumptions needed for different constructions. A starting point compares unstructured and module-LWE instances under matched parameters.",
   "maintainers": [
     "isabeldahlgren"
   ],
