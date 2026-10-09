@@ -1,4 +1,4 @@
-# Safeguarding cryptography under accelerated mathematical discovery
+# Cryptographic hardness under accelerated mathematical discovery
 
 **How can cryptography remain secure if AI rapidly improves the algorithms used to attack it?**
 
