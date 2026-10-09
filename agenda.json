@@ -1,0 +1,15 @@
+{
+  "title": "Safeguarding cryptography under accelerated mathematical discovery",
+  "kind": "open-agenda",
+  "question": "How can cryptography remain secure if AI rapidly improves the algorithms used to attack it?",
+  "created": "2026-10-09T07:46:59+00:00",
+  "summary": "An open agenda on lattice security margins, hash-based alternatives, and encryption that remains secure when an assumption fails. A starting point is reproducible benchmarking of AI-assisted algorithm discovery against tuned classical lattice attacks.",
+  "maintainers": [
+    "isabeldahlgren"
+  ],
+  "tags": [
+    "cryptography",
+    "lattices",
+    "AI-assisted mathematics"
+  ]
+}
