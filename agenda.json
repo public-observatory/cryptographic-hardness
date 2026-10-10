@@ -1,9 +1,9 @@
 {
-  "title": "Structure and hardness in cryptography",
+  "title": "Does algebraic structure make lattice cryptography easier to break?",
   "kind": "open-agenda",
-  "question": "When does the structure that makes a cryptographic construction efficient also make its underlying computational problem easier?",
+  "question": "When, and by how much, does ring or module structure reduce the cost of recovering a secret from noisy linear equations?",
   "created": "2026-10-09T07:46:59+00:00",
-  "summary": "An open agenda on how algebraic structure and parameter choices affect cryptographic hardness, with directions on lattice algorithms, concrete complexity, and the assumptions needed for different constructions. A starting point compares unstructured and module-LWE instances under matched parameters.",
+  "summary": "Compare ordinary LWE with ring and module variants under matched parameters. Measure the effect of structure, explain any advantage, and test whether it survives realistic secret distributions and larger dimensions. Begin with a reproducible small-instance baseline; record failed attacks and independent checks.",
   "maintainers": [
     "isabeldahlgren"
   ],
